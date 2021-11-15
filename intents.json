@@ -1,0 +1,257 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "computer_needs",
+      "patterns": [
+        "What do i need to build a computer?",
+        "What components does my pc need?",
+        "What parts do i need to build a pc?",
+        "what parts are in a computer?",
+        "what components does my computer need?"
+      ],
+      "responses": [
+        "A computer needs a CPU, Motherboard, Graphics card, RAM, storage drive or disk, power supply and a cabinet",
+        "A PC consists of a CPU, Motherboard, Graphics card, RAM, storage drive or disk, power supply and a cabinet",
+        "you'll need to buy a CPU, Motherboard, Graphics card, RAM, storage drive or disk, power supply and a cabinet to build a PC"
+      ]
+    },
+    {
+      "tag": "cpu_choices",
+      "patterns": [
+        "What cpus are available?",
+        "what cpu can i buy for my pc?",
+        "what cpu can i buy for my computer?"
+      ],
+      "responses": [
+        "You have cpu options from AMD and Intel",
+        "There are competitive CPU options available from Intel and AMD",
+        "You can buy a Ryzen lineup CPU from AMD or a CPU from the Intel core lineup"
+      ]
+    },
+    {
+      "tag": "cpu_suggestions",
+      "patterns": [
+        "What cpu should i buy?",
+        "what cpu do you suggest?",
+        "what cpu is good?",
+        "which cpu is good?",
+        "what is a good cpu?",
+        "what cpu should i use for my build?",
+        "what cpu is good for gaming?",
+        "what cpu is good for multitasking?",
+        "what cpu is good for office work?"
+      ],
+      "responses": [
+        "AMD Ryzen 5600x is currently the best value for money CPU",
+        "AMD Ryzen 5600x is good for gaming and general multitasking, but if you think you need a stronger CPU, you can choose a AMD Ryzen 5800x or a AMD Ryzen 5950x",
+        "AMD Ryzen 5600x is a great option for both gaming and multitasking"
+      ]
+    },
+    {
+      "tag": "motherboard",
+      "patterns": [
+        "What motherboard should i buy?",
+        "what mobo should i buy?",
+        "which mobo should i use in my build?",
+        "which motherboard should i use in my build?",
+        "which mobo should i use in my computer?",
+        "which mobo should i use in my pc?",
+        "which motherboard should i use in my pc?",
+        "which motherboard should i use in my computer?"
+      ],
+      "responses": [
+        "You need to pick a B550 motherboard if you wish to use a AMD CPU or pick a B560 motherboard if you wish to use a Intel CPU",
+        "You need to buy a B550 motherboard if you wish to use a AMD CPU or pick a B560 motherboard if you wish to use a Intel CPU",
+        "Your PC will need a B550 motherboard if you wish to use a AMD CPU or a B560 motherboard if you wish to use a Intel CPU",
+        "Your computer will need a B550 motherboard if you wish to use a AMD CPU or a B560 motherboard if you wish to use a Intel CPU"
+      ]
+    },
+    {
+      "tag": "gpu_pairing",
+      "patterns": [
+        "What gpu can I use in my pc?",
+        "What graphics card can I use in my pc?",
+        "What video card can I use in my pc?",
+        "Which gpu can I use in my pc?",
+        "Which graphics card can I use in my pc?",
+        "Which video card can I use in my pc?",
+        "What gpu can I use in my computer?",
+        "What graphics card can I use in my computer?",
+        "What video card can I use in my computer",
+        "Which gpu can I use in my computer?",
+        "Which graphics card can I use in my computer?",
+        "Which video card can I use in my computer?",
+        "What gpu can I use in my build?",
+        "What graphics card can I use in my build?",
+        "What video card can I use in my build?",
+        "Which gpu can I use in my build?",
+        "Which graphics card can I use in my build?",
+        "Which video card can I use in my build?"
+      ],
+      "responses": [
+        "You can pick any modern day graphics card in your PC",
+        "Any graphics card that is connected using a PCIE 8-pin or 16-pin connector can be used in your build"
+      ]
+    },
+    {
+      "tag": "gpu_rendering",
+      "patterns": [
+        "what gpu is good for rendering?",
+        "what graphics card is good for rendering?",
+        "what video card is good for rendering?",
+        "which gpu is good for rendering?",
+        "which graphics card is good for rendering?",
+        "which video card is good for rendering?",
+        "which gpu is good for my office server?",
+        "which graphics card is good for my office server?",
+        "which video card is good for my office server?",
+        "what gpu should i buy for rendering?",
+        "what graphics card should i buy for rendering?",
+        "what video card should i buy for rendering?",
+        "what gpu should i buy for an office server?",
+        "what graphics card should i buy for an office server?",
+        "what video card should i buy for an office server?"
+      ],
+      "responses": [
+        "You should pick a Nvidia RTX 3090 if you are building a personal build, or buy a Nvidia RTX Quadro",
+        "You should buy an Nvidia RTX Quadro for industrial rendering purposes",
+        "The Nvidia RTX Quadro is the best graphics card for office use and rendering"
+      ]
+    },
+    {
+      "tag": "gpu_gaming",
+      "patterns": [
+        "What gpu should i buy?",
+        "What graphics card should i buy?",
+        "what video card should i buy",
+        "which gpu should i buy?",
+        "which graphics card should i buy?",
+        "which video card should i buy",
+        "what gpu is good for gaming?",
+        "what graphics card is good for gaming?",
+        "what video card is good for gaming?",
+        "which gpu is good for gaming?",
+        "which graphics card is good for gaming?",
+        "which video card is good for gaming?",
+        "what gpu do you recommend?",
+        "what graphics card do you recommend?",
+        "what video card do you recommend?",
+        "which gpu do you recommend?",
+        "which graphics card do you recommend?",
+        "which video card do you recommend?"
+      ],
+      "responses": [
+        "An Nvidia RTX 3070 or Nvidia RTX 3080 is great, but Nvidia RTX 3060 is a good budget option",
+        "All current gen Nvidia RTX graphics cards are great for gaming and general use case, although the RTX 3090 would be spending too much for such use case",
+        "The Nvidia RTX 3060 is a good budget graphics card, but the Nvidia RTX 3070 or Nvidia RTX 3080 would be my suggestions if you have some extra budget to spend"
+      ]
+    },
+    {
+      "tag": "RAM",
+      "patterns": [
+        "What RAM should i use?",
+        "What RAM should i buy?",
+        "What RAM should i use in my PC?",
+        "What RAM should i use in my build?",
+        "What RAM should i use in my computer?",
+        "What RAM should i buy for my pc?",
+        "What RAM should i buy for my byuild?",
+        "What RAM should i buy for my computer?",
+        "What RAM can i use in my PC?",
+        "What RAM can i use in my build?",
+        "What RAM can i use in my computer?",
+        "What RAM can i buy for my pc?",
+        "What RAM can i buy for my byuild?",
+        "What RAM can i buy for my computer?",
+        "what RAM is good?",
+        "what RAM do you recommend?",
+        "what RAM do you suggest?"
+      ],
+      "responses": [
+        "You should buy a RAM with frequency of 3200 MHz or 3600 MHz",
+        "Corsair, G Skill, and HyperX make good RAM",
+        "RAM with >=3200 MHZ frequency and sub 16 Cast Latency is great"
+      ]
+    },
+    {
+      "tag": "storage",
+      "patterns": [
+        "should i buy Hard disk or SSD?",
+        "is SSD better than HDD?",
+        "are hard disks better than SSDs?",
+        "should i buy a solid state drive",
+        "what size should my storage be?",
+        "what should i buy for storage?",
+        "what storage is good with my PC?"
+      ],
+      "responses": [
+        "You should buy an SSD of size greater than 256 GB, as they are better than hard disks and you need at least 256 gigabytes of storage",
+        "Solid state drives are much faster than hard disks, so you should buy an SSD for your boot drive at least. Your total storage size should at least be 256 GBs",
+        "SSDs have recently gotten very affordable and are better than Hard disks, so you should SSDs that are at least 256 GBs in size"      ]
+    },
+    {
+      "tag": "psu",
+      "patterns": [
+        "What psu should i buy?",
+        "what psu can i buy for my pc?",
+        "what psu should i buy for my computer?",
+        "what psu should i buy for my build?",
+        "what power supply can i buy for my pc?",
+        "what power supply should i buy for my computer?",
+        "what power supply should i buy for my build?"
+      ],
+      "responses": [
+        "buy a power supply with an 80+ certification of at least bronze standard",
+        "Corsair, Cooler master, ASUS and NZXT make some great PSUs",
+        "pick a power supply which is at least 80+ bronze certification, but you can lookup PSU tier lists to find some of the best ones available in the market currently"
+      ]
+    },
+    {
+      "tag": "cabinet",
+      "patterns": [
+        "What cabinet should i buy?",
+        "what cabinet can i buy for my pc?",
+        "what cabinet should i buy for my computer?",
+        "what cabinet should i buy for my build?",
+        "what case can i buy for my pc?",
+        "what case should i buy for my computer?",
+        "what case should i buy for my build?"
+      ],
+      "responses": [
+        "check the size specifications of your motherboard and match your cabinet size with it",
+        "if you have picked an ATX motherboard, then you will need an ATX cabinet, and similarly match all other sizes"
+      ]
+    }
+  ]
+}
